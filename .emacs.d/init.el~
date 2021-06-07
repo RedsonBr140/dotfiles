@@ -1,0 +1,21 @@
+;;; Package Manager
+(require 'package)
+(setq package-enable-at-startup nil)
+
+(add-to-list 'packages-archives
+	     '("melpa" . "https://melpa.org/packages/")
+	     '("elpa" . "https://elpa.gnu.org/packages/"))
+
+(package-initialize)
+
+;; Install Use-package
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
+;; Load config
+(add-to-list 'load-path "~/.emacs.d/custom/")
+(load-file "~/.emacs.d/helper.el") ;; key binds helper, completion...
+(load-file "~/.emacs.d/visual.el") ;; theme, mode-line, font...
+(load-file "~/.emacs.d/misc.el")   ;; miscellaneous
+
