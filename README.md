@@ -2,7 +2,7 @@
 | Tipos               | Softwares                                                                                                                           |
 | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------- |
 | Linux distribution        | [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux_(Portugu%C3%AAs))                                                                                            |                                                                                       
-| Window Manager  | [dwm](dwm.suckless.org/)                                                                                             
+| Window Manager  | [dwm](https://dwm.suckless.org/)                                                                                             
 | Browser           | [Firefox](https://www.mozilla.org/pt-BR/firefox/new/)                                                                                |
 | Program Launcher | [Rofi](https://github.com/davatorium/rofi)                                                                                         |                                                                                               |     									    |                                					     	 	    												    |
 | Music Player | [CMUS](https://cmus.github.io/#home)                 								    |                                                                                                                                                                                         
