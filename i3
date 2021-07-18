@@ -1,1 +1,0 @@
-/home/redson/.config/i3/
