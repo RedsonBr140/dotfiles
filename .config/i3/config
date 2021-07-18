@@ -1,7 +1,7 @@
 # Inicializando com o sistema
 exec --no-startup-id setxkbmap br # Seta o layout do teclado
 exec --no-startup-id feh --bg-fill /home/redson/Imagens/gruvbox-dark.png
-
+exec --no-startup-id picom
 ##### i3-gaps ##############
 for_window [class=".*"] border pixel 2 #*
 gaps inner 10
@@ -26,7 +26,7 @@ bindsym $mod+w kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id "rofi -modi drun,run -show drun -show-icons" 
-
+bindsym $mod+Tab workspace back_and_forth
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
